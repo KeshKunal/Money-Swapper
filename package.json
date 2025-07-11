@@ -1,6 +1,14 @@
 {
-  "name": "my-currency-converter",
+  "name": "kk-money-swapper",
   "version": "1.0.0",
   "description": "A cool tool I built to convert currencies!",
-  "author": "Keshav Kunal"
+  "author": "Keshav Kunal",
+  "main": "index.js",
+  "bin": {
+    "kk-money-swapper": "index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^x.x.x",
+    "zod": "^x.x.x"
+  }
 }

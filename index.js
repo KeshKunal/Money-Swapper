@@ -18,7 +18,7 @@ to: z.string().describe("Target currency (💡 JPY for some yen)")
 };
 
 async function convertCurrency({ amount, from, to }) {
-  const apiKey = "a6665a5e7175d7a6c5c5891c";
+  const apiKey = "xxxx";
   const apiBase = "https://v6.exchangerate-api.com/v6";
   let url;
 

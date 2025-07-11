@@ -1,16 +1,6 @@
 {
-  "name": "currency-converter",
+  "name": "my-currency-converter",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.15.1",
-    "zod": "^3.25.76"
-  }
+  "description": "A cool tool I built to convert currencies!",
+  "author": "Keshav Kunal"
 }

@@ -8,7 +8,7 @@ import { z } from "zod";
 
 const server = new McpServer({
   name: "kk-money-swapper",
-  version: "1.0.0"
+  version: "1.0.1"
 });
 
 const inputSchema = {
@@ -18,7 +18,7 @@ to: z.string().describe("Target currency (💡 JPY for some yen)")
 };
 
 async function convertCurrency({ amount, from, to }) {
-  const apiKey = "xxxx";
+  const apiKey = "place_your_apikey_here";
   const apiBase = "https://v6.exchangerate-api.com/v6";
   let url;
 

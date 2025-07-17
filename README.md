@@ -11,4 +11,27 @@ This tool enables AI assistants to:
 
 ## Installation
 Install the tool via npm:
-npm install -g my-currency-converter
+npm install -g kk-money-swapper
+
+## MCP Configuration
+Set up my Money Swapper with your AI client to start swapping cash! 
+{
+  "name": "kk-money-swapper",
+  "version": "1.0.1",
+  "description": "A cool tool I built to convert currencies!",
+  "author": "Keshav Kunal",
+  "main": "index.js",
+  "bin": {
+    "kk-money-swapper": "index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.15.1",
+    "zod": "3.25.76"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeshKunal/Money-Swapper"
+  },
+  "keywords": ["currency", "converter", "keshav", "money_swapper", "mcp"]
+}

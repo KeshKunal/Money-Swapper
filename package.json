@@ -1,6 +1,6 @@
 {
   "name": "kk-money-swapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cool tool I built to convert currencies!",
   "author": "Keshav Kunal",
   "main": "index.js",
@@ -8,7 +8,13 @@
     "kk-money-swapper": "index.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^x.x.x",
-    "zod": "^x.x.x"
-  }
+    "@modelcontextprotocol/sdk": "1.15.1",
+    "zod": "3.25.76"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeshKunal/Money-Swapper"
+  },
+  "keywords": ["currency", "converter", "keshav", "money_swapper", "mcp"]
 }
